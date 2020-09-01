@@ -4,7 +4,7 @@ analytics-id: #leave blank to not use Analytics
 #Subtitle
 subtitle:
   active: true
-  text: Yet Another Minimal Theme
+  text: Bijoux et déco en bois découpé au laser.
 
 #Nav 
 nav:
@@ -31,9 +31,9 @@ mathjax:
 
 #Show related posts based on categories
 related-posts:
-  active: true
+  active: false
   title: "You May Also Enjoy"
 
 #Disqus
 disqus:
-  disqus_shortname: "your_username" #Your disqus shortname. Leave blank to deactivate disqus comments
+  disqus_shortname: 
