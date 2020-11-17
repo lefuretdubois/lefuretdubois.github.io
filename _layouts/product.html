@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+  <head>
+    {% include head.html %}
+  </head>
+
+<body>
+
+  <div class="container">
+    {% include header.html %}
+
+    <div class="post-container">
+      <article id = "post">
+        <h2 id = "post-title">{{ page.title }}</h2>
+
+	<div class="row">
+		{% for image_name in page.images %}
+  	  	<div class="col-1-2">
+			<a href="{{ "/assets/img/products_100/" | append: image_name | relative_url }}"><img src="{{ "/assets/img/products_25/" | append: image_name | relative_url }}"/></a>
+		</div>
+		{% endfor %}
+	</div>
+
+        {{ content }}
+		
+		<p>Référence : {{ page.reference }}<br>Prix : {{ page.prix }}&nbsp;€
+      </article>
+    </div>
+
+{%- include footer.html -%}
+
+</body>
+</html>

@@ -1,3 +1,2 @@
 pages:
-  - {name: '<b>Boutique</b>', url: 'https://gumroad.com/lefuretdubois'}
-  - {name: 'Archive', url: 'archive.html'}
+  - {name: 'Contact', url: 'contact.html'}
