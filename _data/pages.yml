@@ -1,2 +1,2 @@
 pages:
-  - {name: 'Contact', url: 'contact.html'}
+#  - {name: 'Contact', url: 'contact.html'}

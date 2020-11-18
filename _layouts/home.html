@@ -3,6 +3,10 @@ layout: default
 title: Home
 ---
 
+<h1>Comment commander ?</h1>
+
+Si certains modèles vous intéressent, contactez-nous à <a href="mailto:lefuretdubois@icloud.com">lefuretdubois@icloud.com</a> en précisant la liste des références et les options voules (métal, etc.) Nous reviendrons vite vers vous et trouverons la solution de paiement et de livraison qui vous convient le mieux.
+
 <h1>Colliers</h1>
 
 {% assign colliers = site.products | where_exp: "product", "product.tags contains 'collier'" %}
@@ -10,7 +14,7 @@ title: Home
 <div class="row">
 {% for product in colliers %}
 	{% assign image_name = product.images | first %}
-	<div class="col-1-6">
+	<div class="col-1-4">
 			<a href="{{ product.url }}"><img src="{{ "/assets/img/products_25/" | append: image_name | relative_url }}"/></a>
 	</div>
 {% endfor %}
@@ -23,7 +27,7 @@ title: Home
 <div class="row">
 {% for product in colliers %}
 	{% assign image_name = product.images | first %}
-	<div class="col-1-6">
+	<div class="col-1-4">
 			<a href="{{ product.url }}"><img src="{{ "/assets/img/products_25/" | append: image_name | relative_url }}"/></a>
 	</div>
 {% endfor %}
