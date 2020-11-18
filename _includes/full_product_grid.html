@@ -1,0 +1,8 @@
+<div class="row">
+{% for product in include.list %}
+	{% assign image_name = product.images | first %}
+	<div class="col-1-4">
+			<a href="{{ product.url }}"><img src="{{ "/assets/img/products_25/" | append: image_name | relative_url }}"/></a>
+	</div>
+{% endfor %}
+</div>

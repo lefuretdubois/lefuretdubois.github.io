@@ -9,26 +9,22 @@ Si certains modèles vous intéressent, contactez-nous à <a href="mailto:lefure
 
 <h1>Colliers</h1>
 
-{% assign colliers = site.products | where_exp: "product", "product.tags contains 'collier'" %}
-
-<div class="row">
-{% for product in colliers %}
-	{% assign image_name = product.images | first %}
-	<div class="col-1-4">
-			<a href="{{ product.url }}"><img src="{{ "/assets/img/products_25/" | append: image_name | relative_url }}"/></a>
-	</div>
-{% endfor %}
-</div>
+{% assign product_list = site.products | where_exp: "product", "product.tags contains 'collier'" %}
+{% include full_product_grid.html list=product_list %}
 
 <h1>Boucles d'oreilles</h1>
 
-{% assign colliers = site.products | where_exp: "product", "product.tags contains 'boucles_oreilles'" %}
+{% assign product_list = site.products | where_exp: "product", "product.tags contains 'boucles_oreilles'" %}
+{% include full_product_grid.html list=product_list %}
 
-<div class="row">
-{% for product in colliers %}
-	{% assign image_name = product.images | first %}
-	<div class="col-1-4">
-			<a href="{{ product.url }}"><img src="{{ "/assets/img/products_25/" | append: image_name | relative_url }}"/></a>
-	</div>
-{% endfor %}
-</div>
+
+<h1>Objects de déco</h1>
+
+{% assign product_list = site.products | where_exp: "product", "product.tags contains 'deco'" %}
+{% include full_product_grid.html list=product_list %}
+
+<h1>Jouets</h1>
+
+{% assign product_list = site.products | where_exp: "product", "product.tags contains 'jouet'" %}
+{% include full_product_grid.html list=product_list %}
+
