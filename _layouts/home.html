@@ -10,7 +10,7 @@ title: Home
 <div class="row">
 {% for product in colliers %}
 	{% assign image_name = product.images | first %}
-	<div class="col-1-4">
+	<div class="col-1-6">
 			<a href="{{ product.url }}"><img src="{{ "/assets/img/products_25/" | append: image_name | relative_url }}"/></a>
 	</div>
 {% endfor %}
@@ -23,7 +23,7 @@ title: Home
 <div class="row">
 {% for product in colliers %}
 	{% assign image_name = product.images | first %}
-	<div class="col-1-4">
+	<div class="col-1-6">
 			<a href="{{ product.url }}"><img src="{{ "/assets/img/products_25/" | append: image_name | relative_url }}"/></a>
 	</div>
 {% endfor %}
