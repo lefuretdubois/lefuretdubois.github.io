@@ -20,7 +20,12 @@ html{
   list-style: none;
 }
 
-
+/* Low Highlight */
+a {
+	color: black;
+	text-decoration: none;
+	background: linear-gradient(to bottom, #fff 60%, #C6E3BB 50%);
+}
 
 /* grid */
 .row {
