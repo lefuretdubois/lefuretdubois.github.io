@@ -5,7 +5,7 @@ title: Home
 
 <h1>Comment commander ?</h1>
 
-Si certains modèles vous intéressent, contactez-nous à <a href="mailto:lefuretdubois@icloud.com">lefuretdubois@icloud.com</a> en précisant la liste des références et les options voules (couleur des attaches, etc.) Nous reviendrons vite vers vous et trouverons la solution de paiement et de livraison qui vous convient le mieux.
+<p>Si certains modèles vous intéressent, contactez-nous à <a href="mailto:lefuretdubois@icloud.com">lefuretdubois@icloud.com</a> en précisant la liste des références et les options voules (couleur des attaches, etc.) Nous reviendrons vite vers vous et trouverons la solution de paiement et de livraison qui vous convient le mieux.</p>
 
 
 {% for set in site.product_sets %}
@@ -14,16 +14,26 @@ Si certains modèles vous intéressent, contactez-nous à <a href="mailto:lefure
     <p>{{ set.content }}</p>
 		
 	{% assign product_list = site.products | where_exp: "product", set.product_filter %}
-	<div class="row">		
-		{% for product in product_list limit: 3 %}
+	<div class="row">	
+
+		{% if product_list.size > 4 %}	
+		  {% for product in product_list limit: 3 %}
 			{% assign image_name = product.images | first %}
 			<div class="col-1-4">
 				<a href="{{ product.url }}"><img src="{{ "/assets/img/products_25/" | append: image_name | relative_url }}"></a>
 			</div>
-			{% endfor %}
+		  {% endfor %}
 			<div class="col-1-4">
 				<a href="{{ set.url }}"><img src="{{ "/assets/img/noimage.jpg" | relative_url }}"></a>
 			</div>
+		{% else %}
+		  {% for product in product_list %}
+			{% assign image_name = product.images | first %}
+			<div class="col-1-4">
+				<a href="{{ product.url }}"><img src="{{ "/assets/img/products_25/" | append: image_name | relative_url }}"></a>
+			</div>
+		  {% endfor %}
+		{% endif %}
 	</div>
 	
 {% endfor %}
