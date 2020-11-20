@@ -1,7 +1,7 @@
 ---
 layout: product
 title: Jumper, cheval d'inspiration étrusque
-reference: CHEVAL
+reference: JUMPER
 prix: 18
 tags: [deco, cheval, mdf]
 images: [cheval-1.jpg]
