@@ -2,7 +2,7 @@
 layout: product
 title: Boucles d'oreilles "hexagone"
 reference: HEXABO
-prix: 16
+prix: 18
 tags: [boucles_oreilles, triangle, mdf]
 images: [oreillesserie1-10.jpg, oreille-9.jpg]
 ---

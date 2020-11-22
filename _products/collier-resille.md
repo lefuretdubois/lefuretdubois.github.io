@@ -2,7 +2,7 @@
 layout: product
 title: Collier "résille"
 reference: TRICOL
-prix: 16
+prix: 18
 tags: [collier, resille, mdf]
 images: [colliers-27.jpg, colliers-8.jpg]
 ---

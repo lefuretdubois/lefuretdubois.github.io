@@ -2,7 +2,7 @@
 layout: product
 title: Boucles d'oreilles "triangle"
 reference: TRIBO
-prix: 16
+prix: 18
 tags: [boucles_oreilles, triangle, mdf]
 images: [oreillesserie1-7.jpg, oreille-1.jpg]
 ---

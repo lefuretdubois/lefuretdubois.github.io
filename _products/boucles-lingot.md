@@ -2,7 +2,7 @@
 layout: product
 title: Boucles d'oreilles "lingot"
 reference: LINGOBO
-prix: 16
+prix: 22
 tags: [boucles_oreilles, triangle, balsa]
 images: [oreillesserie1-13.jpg, oreille-5.jpg]
 ---

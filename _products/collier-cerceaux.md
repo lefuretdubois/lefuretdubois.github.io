@@ -2,7 +2,7 @@
 layout: product
 title: Collier "cerceaux"
 reference: CERCEAUCOL
-prix: 16
+prix: 18
 tags: [collier, cerceau, mdf]
 images: [colliers-23.jpg, colliers-12.jpg]
 ---

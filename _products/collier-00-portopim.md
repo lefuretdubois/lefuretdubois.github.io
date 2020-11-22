@@ -2,7 +2,7 @@
 layout: product
 title: Porto Pim
 reference: PORTOPIM
-prix: 18
+prix: 28
 tags: [collier, balsa]
 images: [colliers-19.jpg, colliers-18.jpg, colliers-17.jpg, colliers-16.jpg]
 ---

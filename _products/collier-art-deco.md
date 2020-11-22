@@ -2,7 +2,7 @@
 layout: product
 title: Collier "art déco"
 reference: ADECOCOL
-prix: 16
+prix: 18
 tags: [collier, art_deco, mdf]
 images: [colliers-29.jpg, colliers-5.jpg]
 ---

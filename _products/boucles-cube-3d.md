@@ -2,7 +2,7 @@
 layout: product
 title: Boucles d'oreilles "cube 3d"
 reference: K3DBO
-prix: 16
+prix: 18
 tags: [boucles_oreilles, triangle, mdf]
 images: [oreillesserie1-6.jpg, BO_CUBE.jpg]
 ---

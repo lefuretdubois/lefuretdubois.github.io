@@ -2,7 +2,7 @@
 layout: product
 title: Boucles d'oreilles "dans les étoiles"
 reference: INSTARSBO
-prix: 16
+prix: 18
 tags: [boucles_oreilles, triangle, mdf]
 images: [oreillesserie1-11.jpg, oreille-2.jpg]
 ---

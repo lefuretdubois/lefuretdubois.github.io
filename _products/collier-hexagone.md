@@ -2,7 +2,7 @@
 layout: product
 title: Collier "hexagone"
 reference: TRICOL
-prix: 16
+prix: 18
 tags: [collier, hexagone, mdf]
 images: [colliers-28.jpg, colliers-6.jpg]
 ---

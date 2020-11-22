@@ -2,7 +2,7 @@
 layout: product
 title: Boucles d'oreilles "flower power"
 reference: FLOPOBO
-prix: 16
+prix: 18
 tags: [boucles_oreilles, triangle, mdf]
 images: [oreillesserie1-12.jpg, oreille-4.jpg]
 ---

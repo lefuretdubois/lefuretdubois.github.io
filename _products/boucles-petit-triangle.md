@@ -2,7 +2,7 @@
 layout: product
 title: Boucles d'oreilles "petit triangle"
 reference: PTITRIBO
-prix: 16
+prix: 22
 tags: [boucles_oreilles, triangle, balsa]
 images: [oreillesserie1-15.jpg, oreille-6.jpg]
 ---

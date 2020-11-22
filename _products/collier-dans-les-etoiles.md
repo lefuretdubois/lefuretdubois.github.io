@@ -2,7 +2,7 @@
 layout: product
 title: Collier "dans les étoiles"
 reference: INSTARSCOL
-prix: 16
+prix: 18
 tags: [collier, etoiles, mdf]
 images: [colliers-31.jpg, colliers-2.jpg]
 ---

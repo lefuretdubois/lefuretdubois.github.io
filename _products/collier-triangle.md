@@ -2,7 +2,7 @@
 layout: product
 title: Collier triangle
 reference: TRICOL
-prix: 16
+prix: 08
 tags: [collier, triangle, mdf]
 images: [colliers-25.jpg, colliers-10.jpg]
 ---

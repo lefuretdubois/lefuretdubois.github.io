@@ -2,7 +2,7 @@
 layout: product
 title: Boucles d'oreilles "résille"
 reference: RESILLEBO
-prix: 16
+prix: 18
 tags: [boucles_oreilles, triangle, mdf]
 images: [oreillesserie1-4.jpg, oreille-11.jpg]
 ---

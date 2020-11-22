@@ -1,8 +1,8 @@
 ---
 layout: product
 title: Boucles d'oreilles "wood strip"
-reference: TRIBO
-prix: 16
+reference: STRIPBO
+prix: 22
 tags: [boucles_oreilles, triangle, balsa]
 images: [oreillesserie1-14.jpg, plus-1.jpg]
 ---

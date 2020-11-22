@@ -2,7 +2,7 @@
 layout: product
 title: Collier "flower power"
 reference: FLOPOCOL
-prix: 16
+prix: 18
 tags: [collier, flower, mdf]
 images: [colliers-24.jpg, colliers-11.jpg]
 ---

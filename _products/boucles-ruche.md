@@ -2,7 +2,7 @@
 layout: product
 title: Boucles d'oreilles "ruche"
 reference: TRIBO
-prix: 16
+prix: 18
 tags: [boucles_oreilles, triangle, mdf]
 images: [oreillesserie1-3.jpg, oreille-10.jpg]
 ---

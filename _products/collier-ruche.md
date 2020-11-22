@@ -2,7 +2,7 @@
 layout: product
 title: Collier "ruche"
 reference: RUCHECOL
-prix: 16
+prix: 18
 tags: [collier, ruche, hexagone, mdf]
 images: [colliers-26.jpg, colliers-9.jpg]
 ---

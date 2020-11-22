@@ -2,7 +2,7 @@
 layout: product
 title: Collier "chevrons"
 reference: CHEVRONCOL
-prix: 16
+prix: 18
 tags: [collier, chevrons, mdf]
 images: [colliers-20.jpg, colliers-15.jpg]
 ---

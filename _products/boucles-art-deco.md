@@ -2,7 +2,7 @@
 layout: product
 title: Boucles d'oreilles "art déco"
 reference: ADECOBO
-prix: 16
+prix: 18
 tags: [boucles_oreilles, triangle, mdf]
 images: [oreillesserie1-8.jpg, oreille-3.jpg]
 ---
