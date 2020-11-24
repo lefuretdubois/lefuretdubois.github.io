@@ -1,16 +1,13 @@
 .footer{
     p{
+		color: grey;
         text-align: center;
-        font-size: 0.85rem;
+        font-size: 0.7rem;
     }
     a{
-        text-decoration: none;
-    }
-    a:hover{
+		color: grey;
+		background: none;
         text-decoration: underline;
-    }
-    a:visited{
-       color: $base; 
     }
 }
 
