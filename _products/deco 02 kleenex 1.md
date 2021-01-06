@@ -6,4 +6,4 @@ prix: 18
 tags: [deco, mouchoirs, mdf]
 images: [noel - 6.jpeg, noel - 4.jpeg, noel - 8.jpeg]
 ---
-Cette boîte en mdf accueille la plupart des boîtes de mouchoirs en papier disponibles dans le commerce.
+Cette boîte en bois (medium) accueille la plupart des boîtes de mouchoirs en papier disponibles dans le commerce.
