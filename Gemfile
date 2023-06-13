@@ -3,15 +3,15 @@
 source "https://rubygems.org"
 # gemspec
 
-gem 'jekyll'
-#gem "github-pages", group: :jekyll_plugins
+# gem 'jekyll'
+gem "github-pages", group: :jekyll_plugins
 gem "webrick", "~> 1.8"
 
-gem 'wdm', '>= 0.1.0'
+# gem 'wdm', '>= 0.1.0'
 
-gem 'jekyll-paginate'
-gem 'jekyll-feed'
-gem 'jekyll-seo-tag'
-gem 'jekyll-sitemap'
-
-gem "jekyll-yamt"
+# gem 'jekyll-paginate'
+# gem 'jekyll-feed'
+# gem 'jekyll-seo-tag'
+# gem 'jekyll-sitemap'
+# 
+# gem "jekyll-yamt"
