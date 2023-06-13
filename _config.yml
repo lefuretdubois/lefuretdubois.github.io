@@ -1,4 +1,5 @@
 # Site settings
+remote_theme: jekyll-yamt
 title: Le furet du bois
 description: "Créations en bois."
 url:  "https://lefuretdubois.com" # Actual base url of the website
